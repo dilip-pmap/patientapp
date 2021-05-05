@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #085ff8;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  color: white;
+  padding: 20px;
+}
+
+.App-body {
+  margin: 20px;
+}
+
+.App-center {
+  text-align: center;
+}
+
+.App-link {
+  color: #085ff8;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-form-control-input {
+  width: 300px;
+  border-radius: 6px;
+  height:40px;
+  font-size: 18px;
+}
+
+.App-button {
+  width: 200px;
+  background-color: #085ff8;
+  border-radius: 6px;
+  height: 45px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+}
+
+.App-table-row {
+  border: 0.5px solid #085ff8;
+  display: block;
+  width: 100%;
+}
+.App-table-label {
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #085ff8;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.App-table-text {
+    width: 50%;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.App-nav-bar-menu {
+    float: right;
+    cursor: pointer;
+    margin-left:30px;
+}
+
+
+.MuiTableHead-root {
+  display: table-header-group;
+  background-color: #085ff8;
+}
+
+.MuiTableCell-head {
+  color: #fff  !important;
+}
+
+.logo-image {
+  content: url("./logo.png");
+  height: 100px;
+  width: 150px;
+  position: relative;
+  bottom: 20px;
+}
+
+.application-name {
+  position: relative;
+  left: 40px;
+  bottom: 60px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.MuiSvgIcon-root  {
+  cursor: pointer;
+}
+
+
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1.5em !important;
+  height: 1.5em !important;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+  cursor: pointer;
+  color: #085ff8;
+}
